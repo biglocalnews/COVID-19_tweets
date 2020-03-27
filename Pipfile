@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 us = "*"
 jupyter = "*"
+mplcursors = "*"
+adjusttext = "*"
 
 [requires]
 python_version = "3.7"
