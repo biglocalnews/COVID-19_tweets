@@ -10,18 +10,24 @@ Stanford University's Big Local News project performed basic analysis of Tweets 
 
 This notebook pulls in data from a variety of sources including an exported CSV of Tweets, a Google Sheet containing government agency twitter handles, a Google Sheet summarizing shelter-in-place orders for different states and The Covid Tracking project. Data are summarized and displayed in simple plots comparing quantities like cumulative tweets, cumulative tweets regarding COVID-19, retweets, shelter-in-place orders and basic statistics about confirmed COVID-19 cases.
 
-## Project notes
-
 ### Staff involved
 
 Simon Willison (<swillison@gmail.com>)
+
 Dilcia Mercedes (<dilcia19@stanford.edu>)
+
 Amy DiPierro (<dipierro@stanford.edu>)
 
 ### Data sources
 
-*TK: List access info & contact info for data sources used in the project*
+Tweets were downloaded from Simon Willison's [Datasette Cloud](https://corona-tweets.datasettecloud.com/data/tweets)
 
+Lists of local government agency handles were compiled by Big Local team members and accessible via a [Google Sheet](https://drive.google.com/open?id=13wRn7ZswD2p180OQY7JiJgv-CHug36CiQqFkhpzQYwY)
+
+Shelter-in-place ordinance dates were compiled by Big Local team members and accessible via a [Google Sheet](https://drive.google.com/open?id=1iOChy4gxV3RUz2uHYRHL5OwSbyIV8p9Jo1tTR-R1-Hw)
+
+Confirmed positive tests, hospitalizations and deaths from COVID-19 are pulled from [The COVID Tracking Project](https://covidtracking.com/)
+<!--
 ## Technical
 
 *TK: Instructions on how to bootstrap project, run ETL processes, etc.*
@@ -41,3 +47,4 @@ Open `covid19-tweets.Rproj` in RStudio.
 ## Data notes
 
 *Add important caveats, limitations, and source contact info here.*
+-->
