@@ -27,13 +27,12 @@ Lists of local government agency handles were compiled by Big Local team members
 Shelter-in-place ordinance dates were compiled by Big Local team members and accessible via a [Google Sheet](https://drive.google.com/open?id=1iOChy4gxV3RUz2uHYRHL5OwSbyIV8p9Jo1tTR-R1-Hw)
 
 Confirmed positive tests, hospitalizations and deaths from COVID-19 are pulled from [The COVID Tracking Project](https://covidtracking.com/)
-<!--
+
 ## Technical
 
-*TK: Instructions on how to bootstrap project, run ETL processes, etc.*
+There are two analysis notebooks. `analysis/explore-tweets.ipynb` provides a template for at-a-glance comparison of Tweets from government agencies in different states. `analysis/state-tweets.ipynb` provides a template for digging deeper into Tweets posted by multiple local government agencies for a single state.
 
-An outline of the basic project structure is available at https://github.com/associatedpress/cookiecutter-r-project
-
+<!--
 ### Project setup instructions
 
 After cloning the git repo:
